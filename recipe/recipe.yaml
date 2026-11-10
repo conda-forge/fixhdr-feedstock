@@ -1,5 +1,5 @@
 context:
-  version: "1.0.0"
+  version: "1.1.0"
 
 package:
   name: fixhdr
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://gitlab.com/earthscope/public/epic/passoft/fixhdr/-/archive/v${{ version }}/fixhdr-v${{ version }}.tar.gz
-  sha256: eb5d65c0e0d0fde3286ac88a584eeb165760e7c87e0adad93f8e0e5944d7d9ab
+  sha256: 21e61b1855a5b7509814c9dd82c903e8cfa7c9a5bbcd06e87778939b4688d3b6
 
 build:
   noarch: python
